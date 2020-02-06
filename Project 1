@@ -1,0 +1,75 @@
+Products
+Prod_ID,Prod_Name,ProdType
+4000,'Samsung','Tablet'
+4001,'Samsung','Phone'
+4002,'Iphone','Tablet'
+4003,'Samsung','Phone'
+4004,'Samsung','Phone'
+4005,'Iphone','Phone'
+4006,'Iphone','Phone'
+4007,'Iphone','Tablet'
+4008,'Samsung','Tablet'
+4009,'Samsung','Tablet'
+4010,'Iphone','Phone'
+4011,'Samsung','Phone'
+4012,'Samsung','Phone'
+4013,'Samsung','Phone'
+
+
+Stores
+Store_ID,Store_Address,City,Region,State,Country
+4100,'213 Lamar St','Dallas','Eastern','TX','USA'
+4101,'102 Que Ave','Royse','Eastern','TX','USA'
+4102,'506 Hooks St','Midland','Western','TX','USA'
+4103,'2203 Mandarin St','Albuquerque','Northern','NM','USA'
+4104,'209 Ching Blvd','Columbus','Northern','MS','USA'
+4105,'5th Sulphur St','Jackson','Eastern','TN','USA'
+4106,'509 Rogue St','Knoxville','Southern','KY','USA'
+4107,'333 Lomas Blvd','Corsicana','Southern','TX','USA'
+4108,'210 Max Ave','Bogata','Eastern','TX','USA'
+4109,'980 Sugar Ave','Vicksburg','Northern','MS','USA'
+4110,'9013 Chance St','Austin','Eastern','TX','USA'
+4111,'498 Risque St','San Antonio','Eastern','TX','USA'
+4112,'787 China Blvd','Jackson','Northern','TN','USA'
+4113,'7896 Being Ave','Dallas','Western','TX','USA'
+4114,'456 Ramy St','Dallas','Eastern','TX','USA'
+
+
+Employees
+E_ID,FirstName,LastName,BirthYear
+4200,'Ram','Styles','1890'
+4201,'Meg','Love','1970'
+4202,'Shree','Ram','1982'
+4203,'Dhan','Raj','1959'
+4204,'Morgan','Pal','2000'
+4205,'Right','Sims','1989'
+4206,'Chase','Stuart','1992'
+4207,'Mia','Cole','1990'
+4208,'Aron','Fins','1980'
+4209,'Michelle','Smith','1978'
+4210,'Mark','Rusk','1980'
+4211,'Chigan','Ark','1989'
+4212,'Victor','Lee','1967'
+4213,'Lemark','Sole','1983'
+4214,'Nadia','Willess','1990'
+
+
+
+
+Sales
+Sales_ID,Sale_Type,Sale_Datetime,StoreID,EID,Prod_ID,Price,Quantity
+4500,'CreditCard','2019-03-15 1:15',4100,4200,4000,350,5
+4501,'DebitCard','2015-05-25 3:25',4101,4201,4001,550,8
+4502,'CreditCard','2016-07-10 4:35',4102,4202,4002,750,4
+4503,'DebitCard','2018-11-05 6:25',4103,4203,4003,950,1
+4504,'CreditCard','2019-02-22 4:30',4104,4204,4004,1350,1
+4505,'CreditCard','2019-04-28 4:42',4105,4205,4005,950,5
+4506,'DebitCard','2019-06-30 3:55',4106,4206,4006,350,1
+4507,'DebitCard','2019-10-23 2:10',4107,4207,4007,300,2
+4508,'CreditCard','2018-01-11 11:27',4108,4208,4008,380,1
+4509,'CreditCard','2019-03-17 12:39',4109,4209,4009,450,2
+4510,'CreditCard','2018-05-10 9:40',4110,4210,4010,870,3
+4511,'DebitCard','2019-07-29 8:20',4111,4211,4011,280,5
+4512,'CreditCard','2019-09-30 10:37',4112,4212,4012,350,1
+4513,'CreditCard','2018-12-17 15:57',4113,4213,4013,350,3
+4514,'DebitCard','2019-11-12 13:45',4114,4214,4014,550,1
